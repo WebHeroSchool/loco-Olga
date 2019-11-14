@@ -1,0 +1,12 @@
+@font-face {
+	font-family: "Montserrat";
+	font-weight: normal;
+	src: 
+		url(./fonts/MontserratAlternates-Regular.wolf) format("woff");
+}
+@font-face {
+	font-family: "Montserrat";
+	font-weight: bold;
+	src: 
+		url(./fonts/MontserratAlternates-Bold.wolf) format("woff");
+}
