@@ -1,3 +1,217 @@
 body {
-	font-family: "Montserrat";
+	font-family: "Montserrat", Arial;
+	min-width: 375px;
+    max-width: 1440px;
+    margin: 0;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__logo {
+
+	font-family: Montserrat, Arial;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 37px;
+	letter-spacing: 0.07em;
+	width: 98px;
+	height: 37px;
+	color: white;
+	text-align: center;
+}
+
+.header__lang {
+
+	display: none;
+}
+
+.header__menu {
+    display: flex;
+    align-self: flex-end;
+    width: 92px;
+    height: 92px;
+    background: #f5f5f3;
+    cursor: pointer;
+}
+
+.header__burg {
+    align-self: center;
+    margin: auto;
+}
+
+.header__burg-line {
+    display: block;
+    width: 40px;
+    height: 4px;
+    background: black;
+}
+
+.header__burg-line:first-of-type {
+    margin-bottom: 5px;
+}
+
+.header__logo-wrap {
+    display: flex;
+    justify-content: space-between;
+    min-width: 461px;
+    background-color: black;
+}
+
+.header__logo {
+    padding: 42px 0 0 55px;
+}
+
+.header__lang {
+    position: relative;
+    display: block;
+    width: 50px;
+    align-self: center;
+    padding: 14px 20px 0 0;
+}
+
+.header__lang-ru {
+    text-decoration: none;
+    cursor: pointer;
+    color: #FFF;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 20px
+}
+
+.header__lang-ru::after {
+    position: absolute;
+    top: 20px;
+    right: 23px;
+    display: block;
+    content: "";
+    width: 7px;
+    height: 6px;
+    border: 2px solid #FFF;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    -webkit-transform: rotate(-44deg);
+    -ms-transform: rotate(-44deg);
+    transform: rotate(-44deg);
+ }
+
+.header__menu {
+    width: 92px;
+    height: 92px;
+    margin-right: 0;
+}
+
+.header__burg-line:first-of-type {
+    margin-bottom: 5px;
+}
+
+.header__burg-line {
+    width: 35px;
+    height: 4px;
+}
+
+.first {
+	width: 100%;
+}
+
+
+.first {
+    background: linear-gradient(to right, #000 461px, #FFF 461px);
+    height: 808px;
+    display: flex;
+    flex-flow: column;
+    }
+
+
+.first__wrap {
+    height: 716px;
+    display: flex;
+    align-items: center;
+    background-image: none;
+    flex-flow: row;
+    justify-content: flex-start;
+    }
+
+.first__wrap-img {
+    background-image: url(./img/pete-bellis-432867-unsplash.png);
+    background-repeat: no-repeat;
+    z-index: 10;
+    height: 562px;
+    width: 735px;
+    background-position: right;
+    }
+
+.first__description {
+	width: 555px;
+    height: 397px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.first__title {
+    padding-left: 0;
+    margin-top: 0;
+    width: 475px;
+    height: 164px;
+    font-weight: bold;
+    line-height: 82px;
+    font-size: 80px;
+    text-align: left;
+    margin-bottom: 26px;
+}
+
+.first__text {
+	margin-top: 0px;
+	width: 467px;
+	height: 127px;
+	font-family: Montserrat, Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 21px;
+}
+
+.first__btn-next {
+	margin-top: 36px;
+	margin-right: 54px;
+	width: 203px;
+	height: 44px;
+	border: 1.5px solid #000000;
+	box-sizing: border-box;
+	background: white;
+}
+
+.first__btn-link {
+	margin-right: 19px;
+	text-decoration: none;
+	color: black;
+	width: 172px;
+	height: 0px;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 0px;
+}
+
+.footer {
+	display: flex;
+}
+
+.footer__socials {
+	display: flex;
+	justify-content: space-between;
+    width: 153px;
+    margin-left: 52px;
+}
+
+.footer__scroll-img {
+	margin-left: 502px;
+	width: 27px;
+	height: 46px;
+	cursor: pointer;
 }
