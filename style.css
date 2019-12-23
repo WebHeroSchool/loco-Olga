@@ -117,7 +117,6 @@ body {
 	.header__logo-wrap {
 		margin-left: 30px;
 		margin-bottom: 20px;
-		flex: 1;
 	}
 
 
@@ -253,7 +252,8 @@ body {
 	}
 	
 	.first__wrapper {
-		width: 100%;
+		width: 70%;
+
 	}
 
 	.first__title {
@@ -261,7 +261,7 @@ body {
     	line-height: 51px;
     	font-size: 50px;
     	margin-bottom: 50px;
-    	margin-left: 26px;
+    	align-self: center;
 
 	}
 
@@ -274,7 +274,7 @@ body {
 		border-right: 3px solid #000;
         border-top: 3px solid #000;
     	transform: rotate(135deg);
-		margin-left: 120px;
+		margin-left: 130px;
 		cursor: pointer;
 		margin-top: 10px;
 	}
@@ -306,17 +306,17 @@ body {
 		}
 
 		.first__title::after {
-		content: "";
-		display: block;
-		position: absolute;
-		width: 20px;
-		height: 20px;
-		border-right: 3px solid #000;
-        border-top: 3px solid #000;
-    	transform: rotate(135deg);
-		margin-left: 200px;
-		cursor: pointer;
-		margin-top: 10px;
+			content: "";
+			display: block;
+			position: absolute;
+			width: 20px;
+			height: 20px;
+			border-right: 3px solid #000;
+        	border-top: 3px solid #000;
+    		transform: rotate(135deg);
+			margin-left: 200px;
+			cursor: pointer;
+			margin-top: 10px;
 	}
 }
 
